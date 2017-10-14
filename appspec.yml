@@ -1,9 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /gitpage/gitpage-node
-hooks:
-  ApplicationStart:
-    - location: scripts/restart.sh
-      timeout: 30
+  - source: ./app.js
+    destination: /gitpage/gitpage-node/
