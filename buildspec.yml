@@ -16,9 +16,11 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
+    - appspec.yml
     - app.js
     - views/**/*
     - routes/**/*
     - public/**/*
     - node_modules/**/*
     - bin/**/*
+    - scripts/**/*
