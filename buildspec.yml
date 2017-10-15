@@ -16,6 +16,7 @@ artifacts:
   files:
     - appspec.yml
     - app.js
+    - env/**/*
     - views/**/*
     - routes/**/*
     - public/**/*
