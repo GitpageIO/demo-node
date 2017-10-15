@@ -1,0 +1,11 @@
+[{
+    "name" :        "gitpage.io",
+    "script" :      "bin/www",
+    "error_file" :  "/var/log/nodejs/gitpage/dev/error.log",
+    "out_file" :    "/var/log/nodejs/gitpage/dev/out.log",
+    "instances" :   "2",
+    "port" : 80,
+    "env": {
+        "NODE_ENV": "development"
+    }
+}]

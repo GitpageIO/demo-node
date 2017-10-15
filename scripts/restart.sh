@@ -1,1 +1,2 @@
-pm2 restart all
+cd /apps/gitpage
+pm2 startOrRestart ./env/dev.json
