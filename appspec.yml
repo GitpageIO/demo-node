@@ -5,5 +5,5 @@ files:
     destination: /home/ubuntu/apps/gitpage
 hooks:
   ApplicationStart:
-    - location: /home/ubuntu/apps/gitpage/scripts/start.sh
+    - location: scripts/start.sh
       timeout: 60
